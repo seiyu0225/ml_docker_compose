@@ -1,0 +1,13 @@
+version: '3.3'
+services:
+  torch:
+    build: .
+    volumes:
+      - type: bind
+        source: ../research
+        target: /mnt
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
