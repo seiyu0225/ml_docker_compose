@@ -21,7 +21,11 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"ms-python.python"
+				"ms-python.python",
+				"MS-CEINTL.vscode-language-pack-ja",
+				"ms-toolsai.jupyter",
+				"ms-toolsai.jupyter-keymap",
+				"ms-toolsai.jupyter-renderers"
 			]
 		}
 	}
