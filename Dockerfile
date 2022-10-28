@@ -3,5 +3,5 @@ RUN apt update
 RUN pip install git+https://github.com/seiyu0225/transformers && \
 pip install jupyterlab ipywidgets widgetsnbextension && \
 pip install fugashi && pip install fugashi[unidic-lite] && \
-pip install seaborn Janome nagisa openpyxl
+pip install seaborn Janome nagisa openpyxl scikit-learn-extra
 WORKDIR /mnt
